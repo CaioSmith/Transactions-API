@@ -6,7 +6,8 @@
     "dev": "npx tsx watch src/server.ts",
     "knex": "tsx ./node_modules/knex/bin/cli.js",
     "lint": "eslint src --ext .ts",
-    "test": "vitest"
+    "test": "vitest",
+    "build": "tsup src --out-dir build"
   },
   "keywords": [],
   "author": "",
